@@ -1229,7 +1229,7 @@ margin-top: 22px;
 
 
 #sponser{
-    background: url(../images/sponser_bg.jpg);
+    background: url(../images/sponser.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1249,10 +1249,11 @@ margin-top: 22px;
     line-height: 30px;
     text-align: center;
     top: 30px;
-    left: -20px;
+    left: 0;
     transform: translateX(-50%);
     border-radius: 3px;
     transition: all linear 0.3s;
+    z-index:1;
 }
 .sp-icon .l:hover{
     background: #363636;
@@ -1267,10 +1268,11 @@ margin-top: 22px;
     line-height: 30px;
     text-align: center;
     top: 30px;
-    right: -35px;
+    right: 0;
     transform: translateX(-50%);
     border-radius: 3px;
     transition: all linear 0.3s;
+    z-index: 1;
 }
 
 .sp-icon .r:hover{

@@ -67,7 +67,7 @@ $('.banner-start').slick({
 $('.blog-main').slick({
   slidesToShow: 2,
   slidesToScroll: 1,
-  autoplay:true,
+  autoplay:false,
   autoplaySpeed:1200,
   arrows:false,
   dots:true,
@@ -125,7 +125,7 @@ $('.nav a').on('click', function () {
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
             html_body.animate({
-                scrollTop: target.offset().top - 0
+                scrollTop: target.offset().top - 84
             }, 1500);
             return false;
         }
